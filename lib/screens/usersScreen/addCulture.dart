@@ -9,7 +9,6 @@ import 'package:newwisataklu/api/tourism_api.dart';
 import 'package:newwisataklu/models/tourism.dart';
 import 'package:newwisataklu/notifier/addCultureNotifier.dart';
 import 'package:newwisataklu/notifier/authNotifier.dart';
-import 'package:newwisataklu/screens/feedScreen.dart';
 import 'package:newwisataklu/screens/loadingScreen/loading.dart';
 import 'package:newwisataklu/screens/loadingScreen/loadingLocatio.dart';
 import 'package:newwisataklu/screens/upload/resultUpload.dart';
