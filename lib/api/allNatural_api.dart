@@ -6,7 +6,7 @@ getAllNaturalTourisms(NaturalTourismNotifier naturalTourismNotifier) async {
   QuerySnapshot snapshot = await Firestore.instance
       .collection('Tourisms')
       .where('kind', isEqualTo: 'natural').where('status', isEqualTo: 'accepted')
-      .orderBy("createdAt", descending: true)
+      .orderBy("acceptedAt", descending: true)
       .getDocuments();
 
   List<Tourism> _naturetourimsList = [];

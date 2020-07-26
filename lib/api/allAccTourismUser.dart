@@ -7,7 +7,7 @@ getAllAcc(AccNotifier accNotifier, String emailUser, String statusAcc) async {
   QuerySnapshot snapshot = await Firestore.instance
       .collection('Tourisms')
       .where('emailUser', isEqualTo: emailUser,).where('status', isEqualTo: statusAcc)
-      .orderBy("createdAt", descending: true)
+      .orderBy("acceptedAt", descending: true)
       .getDocuments();
 
   List<Tourism> _accTourismList = [];

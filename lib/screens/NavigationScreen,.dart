@@ -55,7 +55,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
     Firestore.instance
         .collection('Tourisms')
         .where("status", isEqualTo: "accepted")
-        .orderBy('createdAt' != null ? 'createdAt' : 'updatedAt',
+        .orderBy('acceptedAt',
             descending: true)
         .limit(10)
         .getDocuments()

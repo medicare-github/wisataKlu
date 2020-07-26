@@ -73,7 +73,7 @@ getTourisms(TourismNotifier tourismNotifier) async {
   QuerySnapshot snapshot = await Firestore.instance
       .collection('Tourisms')
       .where('status', isEqualTo: 'accepted')
-      .orderBy("createdAt", descending: true)
+      .orderBy("acceptedAt", descending: true)
       .limit(10)
       .getDocuments();
 
