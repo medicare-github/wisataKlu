@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "453444113960",
+    "firebase_url": "https://newrepa-c042c.firebaseio.com",
+    "project_id": "newrepa-c042c",
+    "storage_bucket": "newrepa-c042c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453444113960:android:2af0e66ffc218d7999c71d",
+        "android_client_info": {
+          "package_name": "com.example.newwisataklu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453444113960-vlpgrrkndu9jmt0sh5gami2v52n93tdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newwisataklu",
+            "certificate_hash": "4ca91358685a1f01171fd99a8db64a83530d94ef"
+          }
+        },
+        {
+          "client_id": "453444113960-3fpkpi6rbdvsjhp24du90a7etdbivcng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAenj_tPXKLTQfDIGdF1noV5EKr1wONZcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453444113960-3fpkpi6rbdvsjhp24du90a7etdbivcng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
