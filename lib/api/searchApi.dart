@@ -1,11 +1,11 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 
-
-  class SearchApi{
-    Future<void> searchGo(String text) async {
-      try {
-        return "Hasil";
-      } catch (e){
-        return null;
-      }
-    }
+class SearchService {
+  searchByName(String searchField) {
+    return Firestore.instance
+        .collection('Tourisms')
+        .where('searchKey',
+            isEqualTo: searchField.substring(0, 1).toUpperCase())
+        .getDocuments();
   }
+}

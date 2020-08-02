@@ -27,7 +27,6 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-  final SearchApi _searchApi = SearchApi();
   var tourisms = [];
   bool resulSearch = false;
   String _cari = '';
