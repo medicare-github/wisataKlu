@@ -17,14 +17,6 @@ class _ProfileUserState extends State<ProfileUser> {
   @override
   Widget build(BuildContext context) {
     AuthNotifier authNotifier = Provider.of<AuthNotifier>(context);
-
-    // String urlprof;
-    // if (authNotifier.user.photoUrl != null) {
-    //   urlprof = authNotifier.user.photoUrl;
-    // } else {
-    //   urlprof =
-    //       "https://png.pngtree.com/element_our/png_detail/20181102/avatar-profile-logo-vector-emblem-illustration-modern-illustration-png_227484.jpg";
-    // }
     String name = authNotifier.user.displayName;
     String firstCha = name[0].toUpperCase();
     return Scaffold(
@@ -65,31 +57,6 @@ class _ProfileUserState extends State<ProfileUser> {
                           ),
                         ),
                       ),
-                      // child: CircleAvatar(
-                      //   radius: 70,
-
-                      //   backgroundImage: NetworkImage(
-                      //       authNotifier.user.photoUrl == null
-                      //           ? urlprof
-                      //           : authNotifier.user.photoUrl),
-                      //   backgroundColor: Colors.black54,
-                      //   child: Align(
-                      //     alignment: Alignment.bottomRight,
-                      //     child: Container(
-                      //       height: 40,
-                      //       width: 30,
-                      //       decoration: BoxDecoration(
-                      //         color: Colors.orange,
-                      //         shape: BoxShape.circle,
-                      //       ),
-                      //       child: Icon(
-                      //         Icons.edit,
-                      //         color: Colors.white,
-                      //         size: 16,
-                      //       ),
-                      //     ),
-                      //   ),
-                      // ),
                     ),
                     SizedBox(
                       height: 5,

@@ -12,8 +12,6 @@ import 'package:newwisataklu/notifier/naturalNotifier.dart';
 import 'package:newwisataklu/notifier/tourismNotifier.dart';
 import 'package:newwisataklu/screens/feedScreen.dart';
 import 'package:newwisataklu/screens/loginPage.dart';
-import 'package:newwisataklu/screens/usersScreen/allMyTourism.dart';
-import 'package:path/path.dart';
 import 'package:provider/provider.dart';
 
 void main() => runApp(MultiProvider(

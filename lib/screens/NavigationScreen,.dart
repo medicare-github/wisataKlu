@@ -1,10 +1,8 @@
-import 'dart:ui' as ui;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:newwisataklu/screens/loadingScreen/loading.dart';
 import 'package:newwisataklu/screens/loadingScreen/loadingGps.dart';
 
 class NavigationScreen extends StatefulWidget {
